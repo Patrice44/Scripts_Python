@@ -3,6 +3,9 @@
 #
 # Exercice 3.2
 # Suite geometrique   Vn = V0 x q puissance n
+# Syntaxe python 3.x
+# Print avec des (), définitions des variables numériques sous la forme Vx: int = y
+
 import fractions
 
 print("# Suite geometrique   Vn = V0 x q puissance n")
