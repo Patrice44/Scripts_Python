@@ -9,24 +9,25 @@
 import fractions
 
 print("# Suite geometrique   Vn = V0 x q puissance n")
+
 V1: int = 5
 q: int = 4
 n: int = 5
-# V0=V1/(q**1) soit V0=5/(4**1)  V0=5/4
-V0 = fractions.Fraction(5, 4)
+V0 = fractions.Fraction(5, 4)   # V0=V1/(q**1) soit V0=5/(4**1)  V0=5/4
 V5 = V0 * (q ** n)
+LineBreak = "\n"
 
 print('V0  = ', V0)
 print('V1  = ', V1)
 print('q   = ', q)
 print('n   = ', n)
 print('V5 = V0*(q**n)= ', V5)
-print('/n')
+print(LineBreak)
 
-# S5=V0*((1-q**(n+1)))/(1-q)
-# calcVl = "S5 = V0*((1-q**(n+1)))/(1-q) = "
-# print calcVl, S5
-print('/n')
+calcVl = "S5 = V0*((1-q**(n+1)))/(1-q) = "
+S5=V0*((1-q**(n+1)))/(1-q)
+print(calcVl, S5)
+print(LineBreak)
 
 # Vn = V0*q**n
 Vn = 0  # type: int
